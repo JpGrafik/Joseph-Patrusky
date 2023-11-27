@@ -1,0 +1,298 @@
+*
+{
+box-sizing: border-box;
+}
+body
+{
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+background: teal;
+}
+#banner-form
+{
+width: 100%;
+float: left;
+height: 600px;
+margin-top: 150px;
+border: 1px solid black;
+border-radius: 7px;
+background: turquoise;
+gap: 10px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+#head-banner
+{
+margin: 50px 50px;
+position: absolute;
+text-align: center;
+}
+#head-banner a
+{
+text-decoration: none;
+margin: 0px 50px;
+color: aqua;
+text-transform: uppercase;
+font-size: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#head-banner a:hover
+{
+text-decoration: underline;
+color: black;
+transition: 0.5s;
+}
+#photoBanner
+{
+width: 70%;
+}
+.text-banner h1
+{
+float: left;
+width: 100%;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-banner h2
+{
+float: left;
+width: 100%;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-banner span
+{
+font-size: 50px;
+font-weight: bold;
+text-transform: uppercase;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-banner
+{
+width: 70%;
+padding: 20px 0px;
+}
+#profesionel
+{
+width: 100%;
+float: left;
+font-size: 19px;
+margin: 10px 0px;
+}
+.text-banner p
+{
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.text-banner img
+{
+width: 50px;
+background: turquoise;
+border-radius: 50px;
+border: 1px solid teal;
+margin: 30px 5px;
+padding: 10px;
+}
+.text-banner img:hover
+{
+width: 70px;
+transition: 0.5s;
+background: teal;
+border-radius: 50px;
+border: 1px solid black;
+}
+.text-banner a
+{
+text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .waviy {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: teal;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+/* C O P Y  R Y G H T */
+#copy
+{
+width: 100%;
+}
+#copy h1
+{
+text-align: center;
+font-size: 15px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* E N D  C O P Y  R I G H T */
+
+/* F O R M   C O N T A C T */
+.form-contact
+{
+width: 50%;
+margin-left: 30%;
+margin: 50px 50px;
+background: teal;
+border-radius: 7px;
+}
+.form-contact input
+{
+display: block;
+width: 70%;
+margin: 20px;
+padding: 15px;
+margin-left: 15%;
+border-radius: 5px;
+border: turquoise;
+}
+textarea
+{
+width: 70%;
+height: 250px;
+margin-left: 15%;
+padding: 20px;
+border-radius: 7px;
+}
+.submit
+{
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bold;
+color: teal;
+}
+.submit:hover
+{
+background: teal;
+color: turquoise;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: 500;
+transition: 0.5s;
+box-shadow: 5px -5px 15px 5px turquoise;
+}
+/* E N D  C O N T A C T  F O R M */
+
+/* S E R V I C E S */
+#service
+{
+width: 100%;
+padding: 20px;
+}
+#service h1
+{
+width: 100%;
+font-size: 50px;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#service h2
+{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+#service p
+{
+font-size: 20px;
+margin: 20px 20px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* E N D  S E R V I C E S */
+
+/* S E R V I C E S  I T E M */
+#service-item
+{
+width: 100%;
+gap: 20px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.item
+{
+width: 100%;
+background: turquoise;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0px 3px 5px 5px rgba(0,0,0,0.4);
+}
+.item a
+{
+text-decoration: none;
+color: black;
+}
+.item img
+{
+width: 50%;
+margin: 0px 100px;
+}
+.item h2
+{text-align: center;
+font-size: 25px;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.item p
+{
+text-align: center;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* E N D  S E R V I C E  I T E M */
+
+/* B U T O N */
+#btn
+{
+width: 100%;
+justify-content: center;
+margin-top: 50px;
+}
+#btn a
+{
+text-decoration: none;
+color: turquoise;
+text-transform: uppercase;
+font-size: 30px;
+font-weight: bold;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: teal;
+padding: 15px;
+margin: 0px 15px;
+border-radius: 25px;
+}
+#btn a:hover
+{
+background: turquoise;
+color: teal;
+transition: 0.7s;
+}
+/* E N D  B U T T O N */
+
+/* A B O U T  P O R F O L I O */
+#aboutporfolio
+{
+width: 100%;
+height: 500px;
+margin-top: 50px;
+border-radius: 10px;
+border: 1px solid turquoise;
+}
+/* E N D  A B O U T  P O R F O L I O */
